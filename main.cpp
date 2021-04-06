@@ -14,4 +14,5 @@ int main(int argc, char *argv[])
         TheGame::Instance()->Update();
         TheGame::Instance()->Draw();
     }
+    return 0;
 }

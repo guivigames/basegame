@@ -1,7 +1,14 @@
 #ifndef __GAME__
 #define __GAME__
 
+#ifdef WIN32
+#include <SDL.h>
+#pragma comment (lib, "SDL2.lib")
+#pragma comment (lib, "SDL2main.lib")
+#pragma comment (lib, "SDL2test.lib")
+#else
 #include <SDL2/SDL.h>
+#endif
 #include <iostream>
 #include <vector>
 #include <string>

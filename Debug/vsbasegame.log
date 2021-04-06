@@ -1,0 +1,9 @@
+﻿  game.cpp
+E:\Development\Repos\guivigames\basegame\game.h(17,1): warning C4005: '_DEBUG': macro redefinition
+E:\Development\Repos\guivigames\basegame\game.cpp : message : see previous definition of '_DEBUG'
+E:\Development\Repos\guivigames\basegame\game.cpp(92,25): warning C4244: 'argument': conversion from 'double' to 'Uint32', possible loss of data
+  main.cpp
+E:\Development\Repos\guivigames\basegame\game.h(17,1): warning C4005: '_DEBUG': macro redefinition
+E:\Development\Repos\guivigames\basegame\main.cpp : message : see previous definition of '_DEBUG'
+  Generating Code...
+  vsbasegame.vcxproj -> E:\Development\Repos\guivigames\basegame\Debug\vsbasegame.exe
