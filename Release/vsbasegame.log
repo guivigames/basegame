@@ -1,0 +1,6 @@
+﻿  game.cpp
+E:\Development\Repos\guivigames\basegame\game.cpp(92,25): warning C4244: 'argument': conversion from 'double' to 'Uint32', possible loss of data
+  main.cpp
+  Generating Code...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
+  vsbasegame.vcxproj -> E:\Development\Repos\guivigames\basegame\Release\vsbasegame.exe
