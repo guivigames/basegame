@@ -89,7 +89,11 @@ void Game::Update()
     std::string newtitle = m_strTitle + " " + elapsed + " sec";
     SDL_SetWindowTitle(m_pWindow, newtitle.c_str());
     m_stdChrono = now;
-    SDL_Delay((1.0/60.0)-m_nFPS);
+    /**
+        Line below could be uncommented to havea ~constant framerate but never a 
+        good idea to use a delay. Better would be to use m_nFPS to adjust movements
+    */
+    //SDL_Delay((1000.0/60.0)-m_nFPS);      
 #endif
 }
 // Redraw the game state.
