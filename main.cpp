@@ -3,6 +3,7 @@ compile in linux: g++ -std=c++17 game.cpp main.cpp -o game `pkg-config --cflags 
 
 */
 #include "game.h"
+#include "GameMath.h"
 
 int main(int argc, char *argv[])
 {

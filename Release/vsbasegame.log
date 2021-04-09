@@ -1,3 +1,5 @@
-﻿  game.cpp
+﻿  GameMath.cpp
+  main.cpp
+  Generating Code...
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/OPT:ICF' specification
   vsbasegame.vcxproj -> E:\Development\Repos\guivigames\basegame\Release\vsbasegame.exe
